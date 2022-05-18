@@ -19,7 +19,7 @@ let count = ref(20);
         >
           unocss
         </div>
-        <div op30 text-lg fw300 m1>
+        <div op30 text-lg fw300 m1 @click="count++">
           The instant on-demand Atomic CSS engine.
         </div>
       </div>
@@ -42,7 +42,3 @@ let count = ref(20);
   margin-top: 60px;
 }
 </style>
-
-function ref(arg0: number) {
-  throw new Error("Function not implemented.");
-}
